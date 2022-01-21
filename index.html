@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bienvenue à bord</title>
+</head>
+<body>
+  
+  <header>
+  
+  <div>
+  
+    <img id="bg__img" class="slide" src="img/background.jpg" alt="car__background__img">
+    <img id="bg__img-1" class="slide-1"  src="img/car-parked.jpg" alt="car__background__img">
+    <img id="bg__img-2" class="slide-1" src="img/car-rolling-forest.png" alt="car__background__img">
+
+  </div>
+    
+  <nav class="navbar navbar-dark">
+                
+    <div class="container-fluid">
+                  
+      <a class="navbar-brand" href="#"><p>Bienvenue à bord</p><p>Location de voiture 24h/24 7j/7</p></a>
+                  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTarget" aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation">
+               
+        <span class="navbar-toggler-icon"></span>
+       
+      </button>
+                  
+      <div class="collapse navbar-collapse" id="navbarTarget">
+                    
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-light">
+                      
+          <li class="nav-item mx-5">
+                        
+            <a class="nav-link text-dark" aria-current="page" href="#">Louer une voiture</a>
+                      
+          </li>
+                      
+          <li class="nav-item mx-5 text-left">
+                        
+            <a class="nav-link text-dark" href="#">Louer un utilitaire</a>
+                      
+          </li>
+                      
+          <li class="nav-item mx-5">
+                        
+            <a class="nav-link text-dark" href="#">
+                          
+              Réserver un chauffeur
+                        
+                        </a>
+                      
+                      </li>
+                      
+                      <li class="nav-item mx-5">
+                        
+                        <a class="nav-link text-dark" href="#">Découvrer nos agences</a>
+                      
+                      </li>
+                      
+                      <li class="nav-item mx-5">
+                        
+                        <a class="nav-link text-dark" href="#">Mon compte</a>
+                      
+                      </li>
+                      
+                      <li class="nav-item mx-5">
+                        
+                        <a class="nav-link text-dark" href="#">Contact</a>
+                      
+                      </li>
+                    
+                    </ul>
+                  
+                  </div>
+                
+                </div>
+              
+              </nav>
+    
+              <div id="firstContainer" class="container py-5">
+        
+              <form class="pt-5">
+            
+                 <div id="secondContainer">
+                
+                  <div class="row">
+                  
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                         
+                      <div class="form-group mt-3"> 
+                                
+                        <select class="form-select" aria-label="Adresse de départ" disabled><div class="input-group-append">
+                                        
+                            <div class="input-group-text">
+                                            
+                              <option value="starting_address" selected>Adresse de départ</option>
+                                        
+                            </div>
+                                    
+                           </div>
+                                
+                        </select>
+                          
+                      </div> 
+                     
+                    </div> 
+        
+                  <!--Champ beging location-->
+                  <div class="col-sm-12 col-md-4 col-lg-3">
+            
+                    <div  class="form-group mt-3">
+               
+                      <div class="input-group">
+                    
+                        <input placeholder="Début de location" type="search" class="form-control">
+                    
+                          <div class="input-group-append">
+                        
+                             <span class="input-group-text">
+                            
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                
+                                <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                              
+                              </svg>
+                         
+                            </span>
+                     
+                          </div>
+                
+                
+                        </div>
+           
+                      </div>
+        
+                    </div>
+            
+                    <!--Champ ending location-->
+            
+                    <div class="col-sm-12 col-md-4 col-lg-3 opacity-100">  
+                
+                      <div  class="form-group mt-3">
+                        
+                        <div class="input-group">
+                            
+                          <input placeholder="Fin de location" type="search" class="form-control">
+                                
+                             <div class="input-group-append">
+                                    
+                              <span class="input-group-text">
+                                        
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                            
+                                  <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                                          
+                                </svg>
+                                    
+                              </span>
+                                
+                            </div>
+                        </div>
+                     
+                      </div>
+                   
+                    </div> 
+               
+                    <div class="col-sm-12 col-md-12 col-lg-3">  
+               
+                      <div>
+            
+                        <button id="validate__search" type="submit" class="btn btn-success mt-3 w-100 text-light fw-bolder">Valider ma recherche</button>
+             
+                      </div>
+                
+                    </div>
+            
+                  </div>
+
+                  </div>
+        
+                </form> 
+    
+              </div>
+            
+            </header>
+
+             <main>
+                
+                <div class="container">
+
+                  <p>7 résultats</p>
+
+                  <button type="button" class="btn btn-light" id="price">Prix Croissant
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                  </svg>
+                      
+                </button> 
+                
+                </div>
+
+                <div class="container">
+
+                  <section>
+                    
+                    <div>
+
+                      <svg class="previous__peugeot" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>
+
+                    <img class="peugeot" src="img/vehicule1.png" alt="car_peugeot">
+
+                    <svg class="next__peugeot" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                      <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                    </svg>
+                  
+                    </div>
+                    
+                    <div>
+                      
+                      <h1 class="text-left">Peugeot 208</h1>
+                 
+                      <div class="text-left">Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5/km supplémentaire),</div>
+                 
+                      <div>999&euro; - Agence de Paris</div>
+                 
+                      <button class="btn btn-success">Réserver et Payer</button>
+                
+                    </div>
+                  
+                  </section>
+                  
+                  <section>
+                    
+                    <div>
+
+                      <svg class="previous__ford" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>
+
+                    <img class="ford" src="img/vehicule2.png" alt="car_ford">
+
+                    <svg class="next__ford" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                      <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                    </svg>
+                  
+                    </div>
+                    
+                    <div>
+                      
+                      <h1 class="text-left">Ford Focus</h1>
+                 
+                      <div class="text-left">Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5/km supplémentaire),</div>
+                 
+                      <div>999&euro;</div>
+                 
+                      <button class="btn btn-success">Réserver et Payer</button>
+                
+                    </div>
+                  
+                  </section>
+                  
+                  <section>
+                  
+                    <div>
+
+                      <svg class="previous__audi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>
+                    
+                      <img class="audi" src="img/vehicule3.png" alt="car_audi">
+
+                      <svg class="next__audi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                      </svg>
+                  
+                    </div>
+                    
+                    <div>
+                      
+                      <h1 class="text-left">Audi A1</h1>
+                 
+                      <div class="text-left">Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5/km supplémentaire),</div>
+                 
+                      <div>1100&euro; - Agence de Paris</div>
+                 
+                      <button class="btn btn-success">Réserver et Payer</button>
+                
+                    </div>
+                  
+                  </section>
+
+                  <section>
+                  
+                    <div>
+
+                      <svg class="previous__opel" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>
+                    
+                      <img class="opel" src="img/vehicule4.png" alt="car_opel">
+
+                      <svg class="next__opel" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                      </svg>
+                  
+                    </div>
+                    
+                    <div>
+                      
+                      <h1 class="text-left">Opel Mokka</h1>
+                 
+                      <div class="text-left">Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5/km supplémentaire),</div>
+                 
+                      <div>1150&euro; - Agence de Paris</div>
+                 
+                      <button class="btn btn-success">Réserver et Payer</button>
+                
+                    </div>
+                  
+                  </section>
+                
+                 </div>
+
+              </main>
+
+              <div id="footer">
+
+              <footer>
+
+                <img src="img/agence.jpg" alt="img_agency">
+
+                <address>
+
+                  <p>New Agence de <span>Paris</span></p>
+                  <p>300 boulevard de vaugirad, 75015, Paris</p>
+                  <p>Ouvert 7j/7 de 09h à 13h et de 14h à 20h</p>
+                  <p>01 49 78 21 33</p>
+                  <p>contact@vtc.com</p>
+
+                </address>
+
+              </footer>
+            
+            </div>
+
+            
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
