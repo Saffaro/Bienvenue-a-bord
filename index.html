@@ -26,13 +26,13 @@
                   
       <a class="navbar-brand" href="#"><p>Bienvenue à bord</p><p>Location de voiture 24h/24 7j/7</p></a>
                   
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTarget" aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation">
                
         <span class="navbar-toggler-icon"></span>
        
       </button>
                   
-      <div class="collapse navbar-collapse" id="navbarTarget">
+      <div class="collapse navbar-collapse" id="navbar">
                     
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-light">
                       
@@ -96,15 +96,9 @@
                          
                       <div class="form-group mt-3"> 
                                 
-                        <select class="form-select" aria-label="Adresse de départ" disabled><div class="input-group-append">
-                                        
-                            <div class="input-group-text">
-                                            
-                              <option value="starting_address" selected>Adresse de départ</option>
-                                        
-                            </div>
-                                    
-                           </div>
+                        <select class="form-select" aria-label="Adresse de départ" disabled>
+                          
+                         <option value="starting_address" selected>Adresse de départ</option>
                                 
                         </select>
                           
@@ -112,7 +106,6 @@
                      
                     </div> 
         
-                  <!--Champ beging location-->
                   <div class="col-sm-12 col-md-4 col-lg-3">
             
                     <div  class="form-group mt-3">
@@ -125,7 +118,7 @@
                         
                              <span class="input-group-text">
                             
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" viewBox="0 0 16 16">
                                 
                                 <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
                               
@@ -142,8 +135,6 @@
         
                     </div>
             
-                    <!--Champ ending location-->
-            
                     <div class="col-sm-12 col-md-4 col-lg-3 opacity-100">  
                 
                       <div  class="form-group mt-3">
@@ -156,7 +147,7 @@
                                     
                               <span class="input-group-text">
                                         
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" viewBox="0 0 16 16">
                                             
                                   <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
                                           
@@ -213,13 +204,13 @@
                     
                     <div>
 
-                      <svg class="previous__peugeot" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                      <svg class="previous__peugeot" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                         <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
                       </svg>
 
                     <img class="peugeot" src="img/vehicule1.png" alt="car_peugeot">
 
-                    <svg class="next__peugeot" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <svg class="next__peugeot" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
                       <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                     </svg>
                   
@@ -243,13 +234,13 @@
                     
                     <div>
 
-                      <svg class="previous__ford" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                      <svg class="previous__ford" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                         <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
                       </svg>
 
                     <img class="ford" src="img/vehicule2.png" alt="car_ford">
 
-                    <svg class="next__ford" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <svg class="next__ford" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
                       <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                     </svg>
                   
@@ -273,13 +264,13 @@
                   
                     <div>
 
-                      <svg class="previous__audi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                      <svg class="previous__audi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                         <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
                       </svg>
                     
                       <img class="audi" src="img/vehicule3.png" alt="car_audi">
 
-                      <svg class="next__audi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                      <svg class="next__audi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
                         <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                       </svg>
                   
@@ -303,13 +294,13 @@
                   
                     <div>
 
-                      <svg class="previous__opel" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                      <svg class="previous__opel" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                         <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
                       </svg>
                     
                       <img class="opel" src="img/vehicule4.png" alt="car_opel">
 
-                      <svg class="next__opel" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                      <svg class="next__opel" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
                         <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                       </svg>
                   

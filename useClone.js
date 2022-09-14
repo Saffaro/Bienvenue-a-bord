@@ -1,6 +1,4 @@
 class Clone{
-
-    // @param array = [] 
     
     constructor(img, initialize = 0, array, option){
 
